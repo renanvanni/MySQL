@@ -21,3 +21,5 @@ select * from tb_tabelaFuncionarios where salario > 2000.00;
 select * from tb_tabelaFuncionarios where salario < 2000.00;
 
 update tb_tabelaFuncionarios set nome = "José" where id = 5;
+
+alter table tb_tabelafuncionarios modify salario decimal(7,2);
